@@ -1,0 +1,250 @@
+/*empieza generales*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+html body {
+  background-color: black; }
+
+html {
+  font-family: Arial; }
+  html p {
+    color: white; }
+  html h1 {
+    color: white; }
+  html h3 {
+    color: white; }
+  html ul {
+    color: white; }
+
+/*termina generales*/
+/*comienza tienda*/
+.tienda2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 3rem; }
+  .tienda2 label {
+    color: white;
+    padding-left: 1rem; }
+  .tienda2 img {
+    padding-left: 1rem; }
+
+.ropaTienda {
+  font-family: Franklin Gothic Heavy;
+  font-size: 50px;
+  padding: 1rem;
+  text-align: center; }
+
+.discosTienda {
+  font-family: Franklin Gothic Heavy;
+  font-size: 50px;
+  padding: 5rem;
+  text-align: center; }
+
+.tiendaDisco2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 3rem;
+  padding-bottom: 10rem; }
+  .tiendaDisco2 label {
+    color: white;
+    padding-left: 1rem; }
+  .tiendaDisco2 h2 {
+    color: white;
+    padding-left: 1rem;
+    font-size: 30px; }
+  .tiendaDisco2 img {
+    padding-left: 1rem; }
+
+/*termina tienda*/
+/*empieza discografia*/
+.tituloDiscografia {
+  font-family: Franklin Gothic Heavy;
+  font-size: 50px;
+  padding: 2rem;
+  text-align: center; }
+
+.discografia2 {
+  background-color: black;
+  padding-bottom: 0px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 3rem; }
+
+  h2 {
+  position: relative;
+  padding-top: 3px;
+  padding-left: 3px;
+  color: white; }
+
+.transicion {
+  overflow: hidden; }
+  .transicion :hover {
+    transform: scale(1.1, 1.1); }
+
+/*termina discografia*/
+/*empieza shows*/
+.tituloShows {
+  font-family: Franklin Gothic Heavy;
+  font-size: 50px;
+  padding: 2rem;
+  text-align: center; }
+
+.shows1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 2rem; }
+  .shows1 img {
+    height: 400px;
+    width: 400px; }
+  .shows1 div {
+    margin-bottom: 50px;
+    margin-left: 50px;
+    /*border: 2px solid red;*/ }
+
+.shows2 {
+  display: flex;
+  flex: wrap;
+  flex-direction: column;
+  justify-content: space-between; }
+  .shows2 div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: row; }
+  .shows2 h1 {
+    padding-left: 200px;
+    padding-top: 150px; }
+  .shows2 h2 {
+    padding-left: 150px;
+    padding-top: 150px;
+    color: white;
+    font-size: 30px; }
+
+/*termina shows*/
+/*empieza header*/
+header {
+  background-color: black;
+  width: 100%;
+  height: 130px;
+  text-align: center; 
+  }
+  header li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 1rem;
+    padding-top: 1rem;
+     font-family: 'Poppins';
+  font-style: normal; }
+  header a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none; }
+  header active {
+    color: #ed0909; }
+  header img {
+    display: inline-block;
+    height: 90px; }
+  header nav {
+    position: central; }
+
+/*termina header*/
+/*empieza footer*/
+footer {
+  background-image: linear-gradient(black, #212121);
+  width: 100%;
+  height: 80px;
+  text-align: right;
+  position: relative; }
+  footer li {
+    display: inline-block;
+    padding: 1rem; }
+    footer li i {
+      color: white; }
+
+/*termina footer*/
+/*empieza historia*/
+.historia {
+  background-color: black;
+  padding-top: 70px; }
+
+.historia2 p {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; }
+
+.historia3 {
+  font-family: Franklin Gothic Heavy;
+  font-size: 50px;
+  text-align: center; }
+
+/*termina historia*/
+/*empieza integrantes*/
+.tituloIntegrantes {
+  font-family: Franklin Gothic Heavy;
+  font-size: 50px;
+  padding: 2rem;
+  text-align: center; }
+
+.integrantes {
+  background-image: url("redhot/red-hot-chili-peppers-logo.jpg");
+  background-repeat: no-repeat;
+  background-position: 100px -80px; }
+  .integrantes div {
+    position: relative;
+    width: 700px;
+    height: 400px; }
+
+.fotosintegrantes .integrantesBtw {
+  width: 100%;
+  height: 1750px;
+  padding: 20px;
+  margin: 0px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  flex: wrap;
+  justify-content: space-between; }
+
+.integrantesBtw {
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 100px; }
+  .integrantesBtw img {
+    width: 400px; }
+  .integrantesBtw h2 {
+    width: 300px;
+    padding-left: 30px;
+    position: absolute;
+    top: 20%;
+    display: inline-block;
+    color: white; }
+  .integrantesBtw h3 {
+    width: 300px;
+    padding-left: 30px;
+    position: absolute;
+    top: 40%;
+    display: inline-block;
+    color: white; }
+
+/*termina integrantes*/
+/*empieza noticias*/
+.carouselNoticias p {
+  color: black;
+  font-family: arial;
+  font-size: 20px; }
+  .carouselNoticias p h5 {
+    color: black; }
+
+ } 
+
+
+/*termina noticias*/

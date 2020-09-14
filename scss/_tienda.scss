@@ -1,0 +1,55 @@
+/*comienza tienda*/
+.tienda2 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 3rem;
+
+	label {
+		color: white;
+		padding-left: 1rem;
+	}
+
+	img {
+		padding-left: 1rem;
+	}
+}
+
+.ropaTienda{
+	font-family: Franklin Gothic Heavy;
+	font-size: 50px;
+	padding: 1rem;
+	text-align: center;
+}
+
+.discosTienda {
+	font-family: Franklin Gothic Heavy;
+	font-size: 50px;
+	padding: 5rem;
+	text-align: center;
+}
+
+
+.tiendaDisco2 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 3rem;
+	padding-bottom: 10rem;
+
+	label {
+		color: white;
+		padding-left: 1rem;
+	}
+
+	h2 {
+		color: white;
+		padding-left: 1rem;
+		font-size: 30px;
+	}
+
+	img {
+		padding-left: 1rem;
+	}
+}
+/*termina tienda*/

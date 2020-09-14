@@ -1,0 +1,19 @@
+/*empieza footer*/
+footer {
+	background-image: linear-gradient(black, #212121);
+	width: 100%;
+	height: 80px;
+	text-align: right;
+	position: relative;
+
+	li {
+	display: inline-block;
+	padding: 1rem;
+
+	i {
+	color: white;
+	}
+}
+}
+
+/*termina footer*/

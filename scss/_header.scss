@@ -1,0 +1,39 @@
+/*empieza header*/
+$cool-blue: black;
+header {
+	background-color: $cool-blue;
+	width: 100%;
+	height: 130px;
+	text-align: center;	
+	
+ 
+ 	li {
+	display: inline-block;
+	list-style: none;
+	padding-left: 1rem;
+	padding-top: 1rem;
+	font-family: 'Poppins';
+  font-style: normal;
+}
+
+	a {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+	active {
+	color: #ed0909;
+}
+
+	img {
+	display: inline-block;
+	height: 90px;
+}
+
+	nav {
+	position: central;
+}
+
+}
+/*termina header*/

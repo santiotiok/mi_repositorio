@@ -1,0 +1,35 @@
+/*empieza discografia*/
+.tituloDiscografia {
+	font-family: Franklin Gothic Heavy;
+	font-size: 50px;
+	padding: 2rem;
+	text-align: center; 
+
+
+.discografia2 {
+	background-color: black;
+	padding-bottom: 0px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-gap: 3rem;
+
+}	
+
+	h2 {
+	font-size: 30px;
+	position: relative;		
+	padding-top: 3px;
+	padding-left: 3px;
+	color: white;
+
+}
+
+.transicion {
+	overflow: hidden;
+	:hover {
+	transform: scale(1.1, 1.1);
+}
+
+}
+/*termina discografia*/
